@@ -1,0 +1,99 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-fonts {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dardcolor1: #3A3A3A;
+    --dardcolor3: #787885;
+}
+
+/* common class */
+.btn{
+    background: #E02C6D;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 100vh;
+}
+.header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header nav ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header nav ul li{
+  list-style: none;
+}
+.header nav ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--dardcolor1);
+  font: 500;
+}
+
+nav h3{
+    font-size: 20px;
+    color: var(--dardcolor1);
+    font-weight: bold;
+}
+
+/* banner  section style  */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.banner-content{
+    width: 582px;
+}
+.banner-content h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--dardcolor1);
+}
+.banner-content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner .banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+   width: 500px;
+   padding: 20px;
+   margin-top: 100px;
+}
